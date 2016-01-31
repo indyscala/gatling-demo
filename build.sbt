@@ -7,6 +7,7 @@ organization := "org.purang.net"
 scalaVersion := "2.11.7"
 
 val http4sVersion = "0.7.0"
+val gatlingVersion = "2.1.7"
 
 libraryDependencies ++= Seq(
   "org.http4s" %% "http4s-core" % http4sVersion,
@@ -14,7 +15,10 @@ libraryDependencies ++= Seq(
   "org.http4s" %% "http4s-blazeserver" % http4sVersion,
   "org.http4s" %% "http4s-argonaut" % http4sVersion,
   "org.scalacheck" %% "scalacheck" % "1.11.4" % "test",
-  "org.scalatest" %% "scalatest" % "2.1.6" % "test"
+  "org.scalatest" %% "scalatest" % "2.1.6" % "test",
+  "io.gatling.highcharts" % "gatling-charts-highcharts" % gatlingVersion % "it",
+  "io.gatling"            % "gatling-test-framework"    % gatlingVersion % "it",
+  "io.gatling"            % "gatling-bundle"            % gatlingVersion % "it" artifacts Artifact("gatling-bundle", "zip", "zip", "bundle")
   )
 
 resolvers ++= Seq(
