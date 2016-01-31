@@ -1,3 +1,10 @@
+
+Fork of [httpize](https://github.com/ppurang/httpize) to demonstrate [Gatling](http://gatling.io) for [Indy Scala](http://www.meetup.com/IndyScala/).
+
+Additional details in the [Indy Scala README](indyscala/README.md).
+
+-- -- --
+
 # HTTP-IZE 
 
 http://httpize.herokuapp.com/
