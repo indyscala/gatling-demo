@@ -4,7 +4,7 @@ version := "0.2.0"
 
 organization := "org.purang.net"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.7"
 
 val http4sVersion = "0.7.0"
 
